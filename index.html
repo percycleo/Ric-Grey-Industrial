@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="theme-color"
+        content="#b3131b"
+    >
+
+    <title>RIC Core | Industrial Trading</title>
+
+    <link
+        rel="icon"
+        href="assets/ric-logo.png"
+    >
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- =========================
+         SIDEBAR
+    ========================== -->
+
+    <aside class="sidebar" id="sidebar">
+
+        <div class="brand">
+
+            <img
+                src="assets/ric-logo.png"
+                alt="RIC Industrial Trading"
+            >
+
+            <div class="brand-text">
+                <strong>RIC</strong>
+                <span>CORE</span>
+            </div>
+
+        </div>
+
+
+        <div class="menu-label">
+            MAIN MENU
+        </div>
+
+
+        <nav>
+
+            <button
+                class="nav-item active"
+                data-page="dashboard"
+            >
+                <span class="nav-icon">⌂</span>
+                Dashboard
+            </button>
+
+
+            <button
+                class="nav-item"
+                data-page="inventory"
+            >
+                <span class="nav-icon">▦</span>
+                Inventory
+            </button>
+
+
+            <button
+                class="nav-item"
+                data-page="sales"
+            >
+                <span class="nav-icon">▤</span>
+                Sales
+            </button>
+
+
+            <button
+                class="nav-item"
+                data-page="suppliers"
+            >
+                <span class="nav-icon">♧</span>
+                Suppliers
+            </button>
+
+
+            <button
+                class="nav-item"
+                data-page="customers"
+            >
+                <span class="nav-icon">♙</span>
+                Customers
+            </button>
+
+
+            <button
+                class="nav-item"
+                data-page="finance"
+            >
+                <span class="nav-icon">₱</span>
+                Finance
+            </button>
+
+
+            <button
+                class="nav-item"
+                data-page="marketing"
+            >
+                <span class="nav-icon">◇</span>
+                Marketing
+            </button>
+
+
+            <button
+                class="nav-item"
+                data-page="reports"
+            >
+                <span class="nav-icon">▥</span>
+                Reports
+            </button>
+
+        </nav>
+
+
+        <div class="sidebar-bottom">
+
+            <button
+                class="nav-item"
+                data-page="settings"
+            >
+                <span class="nav-icon">⚙</span>
+                Settings
+            </button>
+
+
+            <div class="system-label">
+
+                DIGITAL BUSINESS<br>
+                MANAGEMENT SYSTEM
+
+            </div>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- =========================
+         MAIN AREA
+    ========================== -->
+
+    <main class="main">
+
+        <!-- TOP BAR -->
+
+        <header class="topbar">
+
+            <button
+                class="mobile-menu"
+                id="mobileMenu"
+            >
+                ☰
+            </button>
+
+
+            <div class="page-heading">
+
+                <div class="eyebrow">
+                    RIC INDUSTRIAL TRADING
+                </div>
+
+                <h1 id="pageTitle">
+                    Dashboard
+                </h1>
+
+            </div>
+
+
+            <div class="top-actions">
+
+                <div class="search-top">
+
+                    <span>⌕</span>
+
+                    <input
+                        type="text"
+                        placeholder="Search products, transactions, or anything..."
+                    >
+
+                </div>
+
+
+                <button class="top-button">
+                    🔔
+                </button>
+
+
+                <div class="profile">
+
+                    <div class="profile-avatar">
+                        O
+                    </div>
+
+                    <div class="profile-info">
+
+                        <strong>Owner</strong>
+
+                        <small>
+                            Administrator
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+
+        <!-- PAGE CONTENT -->
+
+        <section
+            class="content"
+            id="content"
+        ></section>
+
+    </main>
+
+</div>
+
+
+
+<!-- TOAST -->
+
+<div
+    class="toast"
+    id="toast"
+></div>
+
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
